@@ -21,6 +21,6 @@ async def on_member_join(member):
 async def on_member_remove(member):
 	guild = member.guild
 	channel = guild.get_channel(638781530667352085)
-	await channel.send(f'**{member.mention} left {guild.name}**')
+	await channel.send(f'**{member} left {guild.name}**')
 	
 bot.run('NjM5MTY3NDAzOTAwNTM0Nzky.XhGz4g.dX0_SJ_N948tnu7cZXtONyiRNuI')
