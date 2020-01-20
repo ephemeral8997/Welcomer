@@ -34,7 +34,7 @@ async def on_member_join(member):
 		em.set_author(name="Member joined!")
 		em.description = f'A programmer called {member.name} joined to us!'
 		em.set_thumbnail(url=member.avatar_url)
-		em.set_footer(text=footer icon_url=bot.user.avatar_url)
+		em.set_footer(text=footer, icon_url=bot.user.avatar_url)
 		msg = await channel.send(embed=em)
 		await msg.add_reaction(emo)
 
@@ -55,7 +55,7 @@ async def on_member_remove(member):
 		em.set_author(name="Member left!")
 		em.description = f'A programmer called {member.name} left our server!'
 		em.set_thumbnail(url=member.avatar_url)
-		em.set_footer(text=footer icon_url=bot.user.avatar_url)
+		em.set_footer(text=footer, icon_url=bot.user.avatar_url)
 		msg = await channel.send(embed=em)
 		await msg.add_reaction(emo)
 	
