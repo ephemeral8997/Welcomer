@@ -47,7 +47,7 @@ async def on_member_remove(member):
 		em.set_author(name="Member left!")
 		em.description = f'A bot called {member.name} left our server!'
 		em.set_thumbnail(url=member.avatar_url)
-		em.set_footer(text=footer icon_url=bot.user.avatar_url)
+		em.set_footer(text=footer, icon_url=bot.user.avatar_url)
 		msg = await channel.send(embed=em)
 		await msg.add_reaction(emo)
 	elif not member.bot:
