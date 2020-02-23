@@ -15,6 +15,10 @@ async def on_ready():
 	await bot.change_presence(activity=activity, status=discord.Status.idle)
 
 @bot.listen()
+async def on_command(ctx):
+	pass
+
+@bot.listen()
 async def on_member_join(member):
 	guild = member.guild
 	channel = guild.get_channel(638781504817987597)
