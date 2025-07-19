@@ -1,5 +1,6 @@
 # Welcomer 👋  
 *A minimalist Discord bot dedicated to greeting newcomers with warmth and automation.*
+
 *Originally named in 2020, this bot's name remains unchanged to reflect its identity at creation.*
 
 ---
