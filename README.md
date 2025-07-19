@@ -42,4 +42,35 @@ Now archived, this project stands as a small yet significant token in my early j
    ```bash
    python bot.py
    ```
+
 > 🔑 Don’t forget to set your Discord bot token securely as an environment variable or inside a .env file (not included here for security best practices).
+
+---
+
+## 🧳 Legacy Status
+
+This repository is **archived** and no longer maintained.
+It lives here as a digital monument... compact, purposeful, and a tribute to early experimentation in Discord bot development.
+
+
+---
+
+## 🖼️ Portfolio Reflection
+
+This project reflects:
+
+Early hands-on experience with **event-driven development**
+
+Applied use of **external APIs (Discord)**
+
+Exposure to lightweight deployment on free-tier PaaS services
+
+Focus on simplicity, stability, and clean user experience
+
+
+
+---
+
+## 🔗 License
+
+MIT License. Feel free to explore, fork, or reference.
