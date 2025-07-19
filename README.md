@@ -23,7 +23,7 @@ Now archived, this project stands as a small yet significant token in my early j
 
 ## 💡 Features  
 - Automatic welcome message for each new member  
-- Lightweight and focused—no clutter, no bloat  
+- Lightweight and focused... no clutter, no bloat, no nonsense
 - Designed for plug-and-play on any public or private Discord server
 
 ---
