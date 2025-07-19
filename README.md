@@ -15,7 +15,8 @@ Now archived, this project stands as a small yet significant token in my early j
 - **Discord API:** `discord.py`  
 - **Hosting Compatibility:** Originally deployed on platforms like Heroku  
 - **Structure:**  
-  - `bot.py` – Core logic of the Discord bot  
+  - `main.py` – Core logic of the Discord bot
+  - `bot.py` - Original 2020 source code, preserved exactly as it is...
   - `requirements.txt` – Package dependencies  
   - `Procfile` – Deployment entry point for PaaS hosting
 
